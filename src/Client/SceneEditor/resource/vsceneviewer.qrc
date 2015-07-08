@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/about.svg</file>
+        <file>icons/animation.svg</file>
+        <file>icons/camera.svg</file>
+        <file>icons/entity.svg</file>
+        <file>icons/exit.svg</file>
+        <file>icons/fileclose.svg</file>
+        <file>icons/fileopen.svg</file>
+        <file>icons/files.svg</file>
+        <file>icons/fullscreen.svg</file>
+        <file>icons/grid.svg</file>
+        <file>icons/help.svg</file>
+        <file>icons/log.svg</file>
+        <file>icons/material.svg</file>
+        <file>icons/messages.svg</file>
+        <file>icons/node.svg</file>
+        <file>icons/objects.svg</file>
+        <file>icons/ogre.png</file>
+        <file>icons/player_pause.svg</file>
+        <file>icons/player_play.svg</file>
+        <file>icons/player_stop.svg</file>
+        <file>icons/pmpoints.svg</file>
+        <file>icons/pmsolid.svg</file>
+        <file>icons/pmwireframe.svg</file>
+        <file>icons/polymode.svg</file>
+        <file>icons/preferences.svg</file>
+        <file>icons/properties.svg</file>
+        <file>icons/scene.svg</file>
+        <file>icons/toolbar.svg</file>
+    </qresource>
+</RCC>

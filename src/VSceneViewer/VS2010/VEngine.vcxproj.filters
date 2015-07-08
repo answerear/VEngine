@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\VEngine\include\VSceneSerializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VEngine\include\VTerrain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VEngine\include\VTerrainSerializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VEngine\public\VConfig.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VEngine\public\VEngine.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VEngine\public\VError.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VEngine\public\VScene.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VEngine\public\VType.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VEngine\public\VWorldManager.h">
+      <Filter>public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\VEngine\source\VEngine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ui">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="GeneratedFiles">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GeneratedFiles\Debug">
+      <UniqueIdentifier>{c336b19d-55ee-4ec2-b87d-a9361ba8d8d8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GeneratedFiles\Release">
+      <UniqueIdentifier>{cb5a5541-da4d-4c5c-bfcd-aa0599e55765}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\VSceneViewer\include\renderwidget.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\VSceneViewer\include\vsceneviewer.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\VSceneViewer\include\scenegraphwidget.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\VSceneViewer\include\selectscenedialog.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\VSceneViewer\ui\selectscenedialog.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\VSceneViewer\ui\vsceneviewer.ui">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\VSceneViewer\resources\vsceneviewer.qrc">
+      <Filter>resources</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="generatedfiles\Debug\moc_renderwidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release\moc_renderwidget.cpp">
+      <Filter>GeneratedFiles\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Debug\moc_scenegraphwidget.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release\moc_scenegraphwidget.cpp">
+      <Filter>GeneratedFiles\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Debug\moc_selectscenedialog.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release\moc_selectscenedialog.cpp">
+      <Filter>GeneratedFiles\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Debug\moc_vsceneviewer.cpp">
+      <Filter>GeneratedFiles\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\Release\moc_vsceneviewer.cpp">
+      <Filter>GeneratedFiles\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_vsceneviewer.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VSceneViewer\source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VSceneViewer\source\renderwidget.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VSceneViewer\source\scenegraphwidget.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VSceneViewer\source\selectscenedialog.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VSceneViewer\source\vsceneviewer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_selectscenedialog.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vsceneviewer.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\VSceneViewer\resources\VSceneViewer.ico">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\about.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\animation.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\camera.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\entity.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\exit.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\fileclose.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\fileopen.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\files.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\fullscreen.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\grid.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\help.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\log.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\material.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\messages.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\node.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\objects.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\ogre.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\player_pause.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\player_play.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\player_stop.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\pmpoints.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\pmsolid.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\pmwireframe.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\polymode.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\preferences.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\properties.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\scene.svg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\VSceneViewer\resources\icons\toolbar.svg">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\VSceneViewer\resources\VSceneViewer.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
